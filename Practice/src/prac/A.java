@@ -6,7 +6,9 @@ public class A {
 	String s="gcfuigwsfghw";
 	
 	public A(String s) {
+		
 		super();
+		//github
 		this.s = s;
 	}
 	public A(int a, float f) {
