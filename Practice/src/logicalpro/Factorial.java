@@ -2,10 +2,12 @@ package logicalpro;
 
 import java.util.Scanner;
 
+//num=4  factorial=4*3*2*1=24
+
 public class Factorial {
 	public static void main(String args[])
 	{
-		int fact=1;
+		long fact=1;
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter Number=");
 		int num=sc.nextInt();

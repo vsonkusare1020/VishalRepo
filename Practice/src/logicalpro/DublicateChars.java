@@ -14,7 +14,6 @@ public class DublicateChars {
 			for (int j =i+1; j < c.length; j++) {
 				if(c[i]==c[j]) {
 					System.out.print(c[j]+" ");
-					
 					break;
 				}
 			}

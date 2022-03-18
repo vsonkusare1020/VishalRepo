@@ -1,7 +1,7 @@
 package logicalpro;
 
 import java.util.Scanner;
-
+//153 => 1^3+5^3+3^3 = 153
 public class Armstrong {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class Armstrong {
 		int num = num1;
 		int rem;
 		int check = 0;
-		while (num != 0) {
+		while (num > 0) {
 			rem = num % 10;
 			num = num / 10;
 			check = check + (rem * rem * rem);
