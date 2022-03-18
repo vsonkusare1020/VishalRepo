@@ -13,6 +13,9 @@ public class ReverseString {
 		for(int i=chars.length-1;i>=0;i--) {
 			System.out.print(chars[i]);
 		}
+		
+		
+		
 		//rev string stored in another String variable
 		
 		String rev = "";
@@ -21,5 +24,14 @@ public class ReverseString {
 			rev=rev+chars[i];
 		}
 		System.out.println("\n"+rev);
+		
+		
+		
+		//using charAt() 
+		
+		for(int i=name.length()-1;i>=0;i--) {
+			System.out.print(name.charAt(i));
+		}
+		
 	}
 }
